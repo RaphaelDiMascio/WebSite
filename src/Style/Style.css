@@ -1,0 +1,40 @@
+img {
+    border-radius: 50%;
+}
+.flex_box_row{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+a {
+    background-color: #A4A4BF;
+    color: black;
+    padding: 15%;
+    margin:10%;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 20%;
+}
+.flex_box_column{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+}
+.logo img {
+    width: 10%;
+    align-self: center;
+}
+.logo h1{
+    align-self: center;
+    justify-content: center;
+    padding: 3%;
+}
