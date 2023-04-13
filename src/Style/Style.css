@@ -14,6 +14,7 @@ img {
     align-items: center;
 }
 .flex_box_column a {
+    font-weight: bold;
     background: #1D3557;
     color: white;
     padding-left: 20%;
@@ -43,6 +44,7 @@ img {
     align-self: center;
 }
 .logo a{
+    font-weight: bold;
     position: fixed;
     right: 2%;
     top: 2.5%;
@@ -53,4 +55,11 @@ img {
     padding-left: 1%;
     padding-right: 1%;
     border-radius: 20px;
+}
+.logoP{
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
 }
